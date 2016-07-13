@@ -1,0 +1,34 @@
+{
+  "name": "react-redux",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/warwaf/react-redux-demo.git"
+  },
+  "scripts": {
+    "mongod": "./bin/mongond.dev.sh",
+    "server": "node ./src/server/server",
+    "client": "node ./src/client/clientServer"
+  },
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "body-parser": "^1.15.2",
+    "co": "^4.6.0",
+    "cookie-session": "^2.0.0-alpha.1",
+    "crypto": "0.0.3",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.4",
+    "morgan": "^1.7.0",
+    "webpack-dev-middleware": "^1.6.1",
+    "webpack-hot-middleware": "^2.12.1"
+  },
+  "dependencies": {
+    "babel": "^6.5.2",
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "redux": "^3.5.2"
+  }
+}
