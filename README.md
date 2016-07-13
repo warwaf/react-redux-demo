@@ -1,7 +1,6 @@
 # react-redux
 
 ### 前言
-
 后端：express + co + mongoose + ...
 前端：react + redux + react-router + ...
 线上地址：
